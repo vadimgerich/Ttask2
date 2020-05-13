@@ -8,6 +8,9 @@ const newsSchema = new mongoose.Schema({
     author:String,
     text:String,
     comment:String,
+    tags: [{
+        type: String
+    }],
     stars:Number
 });
 
